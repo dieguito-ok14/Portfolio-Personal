@@ -37,6 +37,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     width: 40%;
     background-color: #424242;
 }
@@ -44,6 +45,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     width: 60%;
     background-color: #F2F2F2;
     color: #303030;
@@ -66,7 +68,7 @@ header{
 }
 .tech-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 8px;
 }
 

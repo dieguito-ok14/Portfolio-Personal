@@ -1,6 +1,9 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 header{
     height: 65px;
@@ -12,7 +15,7 @@ header{
 }
 .cara{
     
-    height: 170px;
+    height: 220px;
 }
 .uno{
     width: 100%;
@@ -68,43 +71,20 @@ header{
 }
 .tech-list{
    
-    padding-top: 3px;
+    padding-top: 2px;
 }
 
-.tech{
-    
-    
+.iconos{
     height: 100px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.tres{
-    background-color: #303030;
-    height: 600px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    color: #F2F2F2;
-}
-.proyectos{
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-}
-.card{
-    text-align: center;
-    width: 30%;
-    border: solid #F2F2F2 1px;
-    border-radius: 10px;
-    padding: 10px;
-}
-.card img{
-    width: 100%;
-}
-.card a, footer a {
-    color: white;
-}
+
+
+
+
+
 
 .red-social{
     height: 60px;

@@ -5,6 +5,11 @@ body{
     margin-right: auto;
 
 }
+a{
+    text-decoration: none;
+    color: white;
+    
+}
 header{
     height: 65px;
     background-color: #7b1fa2;
@@ -25,7 +30,7 @@ header{
     height: calc(100vh - 65px);
     background-color: #303030;
     color: white;
-    /* padding-top: 10%; */
+    
 }
 .caja-central{
     margin-top: 10%;
@@ -69,19 +74,36 @@ header{
 .aptitudes{
     width: 100%;
 }
-.tech-list{
+.lista{
    
     padding-top: 2px;
 }
-
-.iconos{
-    height: 100px;
+.aptitudes .lista .iconos{
+    
+    width: 90px;
+    height: 90px;
     margin-left: auto;
     margin-right: auto;
+    padding: 12px;
 }
 
+button {
+    border-radius: 5px;
+    background-color: #0F5897;
+    padding: 5px 10px 5px 10px;
+  }
 
+button:hover {
+    animation-name: background-color;
+    animation-duration: 3000ms;
+    
+  }
 
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+      }
+  }
 
 
 
